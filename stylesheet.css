@@ -249,6 +249,21 @@ footer{
 	border: solid 1px #d8942f;
 	transition: all .4s ease-in-out;
 }
+.nav-list a.page-scroll:hover {
+	text-decoration: none;
+}
+.list-group-item.top-item-fix{
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.list-group-item.middle-item-fix{
+	border-radius: 0;
+}
+.list-group-item.bottom-item-fix{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
 .customer li{
 	list-style: circle;
 }

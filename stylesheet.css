@@ -332,6 +332,14 @@ footer{
 	color:#F0A535;
 	transition: all .4s ease-in-out; 
 }
+
+.carousel-inner .item img.carousel-pc-pic{
+	display: block;
+}
+
+.carousel-inner .item img.carousel-phone-pic{
+	display: none;
+}
 @media (max-width: 767px){  /*手機 */
 	.carousel-caption  h1{
   		font-size: 20px;
@@ -349,6 +357,14 @@ footer{
 	}
 	.context{
 		margin-top: 0px;
+	}
+
+	.carousel-inner .item img.carousel-phone-pic{
+		display: block;
+	}
+
+	.carousel-inner .item img.carousel-pc-pic{
+		display: none;
 	}
 }
 

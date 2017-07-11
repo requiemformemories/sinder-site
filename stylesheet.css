@@ -6,8 +6,8 @@ h1,h2,h3,h4,h5,h6,p,a{
 	border-radius: 0;
 }
 .navbar-default {
-  background-color: #555555;
-  border-color: #444444;
+  background-color: #333;
+  border-color: #555;
 }
 .navbar-default .navbar-brand {
   color: #FFF;
@@ -95,6 +95,7 @@ footer{
 }
 .jum1-2{ 
 	background-image: url(images/jumbotron1-2.jpg);
+	background-size: cover;
 }
 .jum2{
 	background-image: url(images/jumbotron2.jpg);
@@ -120,6 +121,9 @@ footer{
 }
 .jum3 h1,.jum1-2 h1, .jum2-2 h1,.jum3-1 h1,.jum3-1 p{
 	color:#FFF;
+}
+.jum5-1 h1, .jum5-1 p{
+	color: #000;
 }
 .jum4-1{
 	background-image: url(images/jumbotron4-1.jpg);

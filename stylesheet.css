@@ -333,15 +333,19 @@ footer{
 	transition: all .4s ease-in-out; 
 }
 
-.carousel-inner .item img.carousel-pc-pic{
-	/*display: block;*/
+.news{
+	line-height: 30px;
+}
+
+/*.carousel-inner .item img.carousel-pc-pic{
+	display: block;
 	height: 585px;
 }
 
 .carousel-inner .item img.carousel-phone-pic{
-	/*display: none;*/
+	display: none;
 	height: 0;
-}
+}*/
 @media (max-width: 767px){  /*手機 */
 	.carousel-caption  h1{
   		font-size: 20px;
@@ -361,15 +365,15 @@ footer{
 		margin-top: 0px;
 	}
 
-	.carousel-inner .item img.carousel-phone-pic{
-		/*display: block;*/
+/*	.carousel-inner .item img.carousel-phone-pic{
+		display: block;
 		height: 585px;
 	}
 
 	.carousel-inner .item img.carousel-pc-pic{
-		/*display: none;*/
+		display: none;
 		height: 0;
-	}
+	}*/
 }
 
 @media (max-width: 992px){

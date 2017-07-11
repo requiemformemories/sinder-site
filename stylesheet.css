@@ -334,11 +334,13 @@ footer{
 }
 
 .carousel-inner .item img.carousel-pc-pic{
-	display: block;
+	/*display: block;*/
+	height: 585px;
 }
 
 .carousel-inner .item img.carousel-phone-pic{
-	display: none;
+	/*display: none;*/
+	height: 0;
 }
 @media (max-width: 767px){  /*手機 */
 	.carousel-caption  h1{
@@ -360,11 +362,13 @@ footer{
 	}
 
 	.carousel-inner .item img.carousel-phone-pic{
-		display: block;
+		/*display: block;*/
+		height: 585px;
 	}
 
 	.carousel-inner .item img.carousel-pc-pic{
-		display: none;
+		/*display: none;*/
+		height: 0;
 	}
 }
 

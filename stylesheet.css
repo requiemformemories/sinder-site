@@ -337,6 +337,13 @@ footer{
 	line-height: 30px;
 }
 
+.carousel-inner > .item {
+    -webkit-transition: 1.0s ease-in-out left;
+    -moz-transition: 1.0s ease-in-out left;
+    -o-transition: 1.0s ease-in-out left;
+    transition: 1.0s ease-in-out left;
+}
+
 /*.carousel-inner .item img.carousel-pc-pic{
 	display: block;
 	height: 585px;

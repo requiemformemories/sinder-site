@@ -82,56 +82,117 @@ footer{
 	margin-bottom: 0;
 	background-color: transparent;
 }
-.jum1{
-	padding-top: 100px;
-	padding-bottom: 200px;	 
-	background-image: url(images/jumbotron1.jpg);
-}
-.jum1-1{
-	padding-top: 100px;
-	padding-bottom: 200px;	 
-	background-image: url(images/jumbotron1-1.jpg);
 
+/*
+美髮系統(hair)
+	jum-h1: 大標
+	jum-h2: 3大特色
+	jum-h3: 功能
+顧客
+	jum-cus1
+資源 
+	jum-res1
+服務 
+	jum-serv1
+聯絡 
+	jum-cont1
+*/
+
+.jum-h1{
+	padding-top: 100px;
+	padding-bottom: 200px;	 
+	background-image: url(images/jumbotron-h1.jpg);
 }
-.jum1-2{ 
-	background-image: url(images/jumbotron1-2.jpg);
-	background-size: cover;
-}
-.jum2{
-	background-image: url(images/jumbotron2.jpg);
+
+.jum-h2{
+	background-image: url(images/jumbotron-h2.jpg);
 	background-repeat: repeat;
 	box-shadow: 0 30px 40px rgba(0,0,0,0.5) inset;
 }
-.jum2-1{
-	padding-top: 100px;
-	padding-bottom: 200px;	 
-	background-image: url(images/jumbotron2-1.jpg);
-}
-.jum2-2{
-	background-image: url(images/jumbotron2-2.jpg);
-}
-.jum3{
-	background-image: url(images/jumbotron3.jpg);
+.jum-h3{
+	background-image: url(images/jumbotron-h3.jpg);
 	background-size: cover;
 }
-.jum3-1{
+.jum-cus1{
 	padding-top: 100px;
 	padding-bottom: 200px;	 
-	background-image: url(images/jumbotron3-1.jpg);
+	background-image: url(images/jumbotron-cus1.jpg);
 }
-.jum3 h1,.jum1-2 h1, .jum2-2 h1,.jum3-1 h1,.jum3-1 p{
+.jum-h3 h1,.jum-cus1 h1,.jum-cus1 p, .jum-serv1{
 	color:#FFF;
 }
-.jum5-1 h1, .jum5-1 p{
+.jum-res1 h1, .jum-res1 p{
 	color: #000;
 }
-.jum4-1{
-	background-image: url(images/jumbotron4-1.jpg);
+.jum-cont1{
+	background-image: url(images/jumbotron-cont1.jpg);
 }
-.jum5-1{
+.jum-res1{
 	padding-top: 100px;
 	padding-bottom: 200px;
-	background-image: url(images/jumbotron5-1.jpg);
+	background-image: url(images/jumbotron-res1.jpg);
+}
+
+.serv{
+	text-align: center;
+	background-size: cover;
+	padding: 0;
+	color: #fff;
+	text-shadow: 0px 0px 12px #000;
+	font-weight: bold;
+} 
+a:hover .serv{
+	text-decoration: none;
+	color:#ffb242;
+	transition: all 0.4s ease-in-out;
+}
+.serv-layer{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.serv h3{
+	position: absolute;
+	top: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	z-index: 20;
+}
+.dummy{
+	margin-top: 100%;
+	top:0;
+	left:0;
+}
+a:hover .serv-layer{
+	background-color: rgba(5%,5%,5%,0.6);
+	transition: all 0.4s ease-in-out;
+}
+.serv-hair{
+	background-image: url(images/serv-hair.jpg);
+	background-position: right;
+}
+.serv-spa{
+	background-image: url(images/serv-spa.jpg);
+	background-position: bottom;
+}
+.serv-beau{
+	background-image: url(images/serv-beau.jpg);
+}
+.serv-nail{
+	background-image: url(images/serv-nail.jpg);
+}
+.serv-tatt{
+	background-image: url(images/serv-tatt.jpg);
+}
+.serv-tabl{
+	background-image: url(images/serv-tabl.jpg);
+}
+.serv-succ{
+	background-image: url(images/serv-succ.jpg);
 }
 .feature-row{
 	padding: 70px;
@@ -178,57 +239,26 @@ footer{
 	background-color: #333333;
 	transition: all .4s ease-in-out;
 }
-.circle1-2{
-	margin-bottom: 50px; 
-}
-.function{
+.func-h{ /*美髮系統功能*/
 	margin: 10px;
 	padding: 10px;
 	background-color: rgba(0,0,0,0.5);
 	height: 200px;
 	border-radius: 5px;
 }
-.function:hover, .function:focus{
+.func-h:hover, .func-h:focus{
 	background-color:rgba(0,0,0,0.8);
 	transition: all .4s ease-in-out;
 }
-.function h3, .function3 h3{
+.func-h h3{
 	color: #F0A535;
 	font-size: 22px;
 }
-.function p{
+.func-h p{
 	font-size: 15px;
 	color: #FFF;
 }
-.function2{
-	margin: 10px;
-	padding: 60px 30px 10px; 
-	background-color: rgba(255,255,255,0.8);
-	height: 300px;
-	border-radius: 5px;
-	text-align: center;
-}
-.function2:hover, .function2:focus{
-	background-color:rgba(255,255,255,1);
-	transition: all .4s ease-in-out;
-	color: #F0A535;
-}
-.function3{
-	margin: 10px;
-	padding: 20px;
-	padding-top: 55px;
-	background-color: rgba(255,255,255,0.8);
-	height: 200px;
-	border-radius: 5px;
-}
-.function3 p{
-	font-size: 20px;
-	color: #000;
-}
-.function3:hover, .function3:focus{
-	background-color:rgba(255,255,255,1);
-	transition: all .4s ease-in-out;
-}
+
 .nav-list{
 	position: fixed;
 	bottom: 0;
@@ -345,15 +375,6 @@ footer{
     transition: 1.0s ease-in-out left;
 }
 
-/*.carousel-inner .item img.carousel-pc-pic{
-	display: block;
-	height: 585px;
-}
-
-.carousel-inner .item img.carousel-phone-pic{
-	display: none;
-	height: 0;
-}*/
 @media (max-width: 767px){  /*手機 */
 	.carousel-caption  h1{
   		font-size: 20px;
@@ -373,30 +394,16 @@ footer{
 		margin-top: 0px;
 	}
 
-/*	.carousel-inner .item img.carousel-phone-pic{
-		display: block;
-		height: 585px;
-	}
-
-	.carousel-inner .item img.carousel-pc-pic{
-		display: none;
-		height: 0;
-	}*/
-}
-
 @media (max-width: 992px){
 	.connect{
 		margin: 40px;	
 	}
-	.jum2-2{
-		background-image: url(images/jumbotron2-2-small.jpg);
-	}
-	.function,.function3{
+	.func-h{
 		margin: 10px;
 		padding: 20px;
 		height: auto;
 	}
-	.function:first-child, .function2:first-child, .function3:first-child{
+	.func-h:first-child{
 		margin-top: 0;
 	}
 	.rwd-iframe{

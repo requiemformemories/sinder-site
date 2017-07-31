@@ -88,6 +88,9 @@ footer{
 	jum-h1: 大標
 	jum-h2: 3大特色
 	jum-h3: 功能
+spa(spa)
+jum-spa1: 大標
+jum-spa2: 功能
 顧客
 	jum-cus1
 資源 
@@ -119,6 +122,12 @@ footer{
 	background-position: center;
 	background-size: cover;
 }
+.jum-spa2{
+	padding: 30px 180px;
+	background-image: url(images/jumbotron-spa2.jpg);
+	background-position: left;
+	background-size: cover;
+}
 .jum-beau1{
 	padding-top: 100px;
 	padding-bottom: 200px;	 
@@ -126,11 +135,23 @@ footer{
 	background-size: cover;
 	background-position: center;
 }
+.jum-beau2{
+	padding: 30px 180px;
+	background-image: url(images/jumbotron-beau2.jpg);
+	background-size: cover;
+	background-position: center;	
+}
 .jum-nail1{
 	padding-top: 100px;
 	padding-bottom: 200px;	 
 	background-image: url(images/jumbotron-nail1.jpg);
 	background-size: cover;
+}
+.jum-nail2{
+	padding: 30px 180px;
+	background-image: url(images/jumbotron-nail2.jpg);
+	background-size: cover;
+	background-position: center;
 }
 .jum-tatt1{
 	padding-top: 100px;
@@ -138,6 +159,12 @@ footer{
 	background-image: url(images/jumbotron-tatt1.jpg);
 	background-position: center;
 	background-size: cover;
+}
+.jum-tatt2{
+	padding: 30px 180px;
+	background-image: url(images/jumbotron-tatt2.jpg);
+	background-size: cover;
+	background-position: center;
 }
 .jum-tabl1{
 	padding-top: 100px;
@@ -157,7 +184,7 @@ footer{
 	padding-bottom: 200px;	 
 	background-image: url(images/jumbotron-cus1.jpg);
 }
-.jum-h3 h1,.jum-cus1 h1,.jum-cus1 p, .jum-serv1, .jum-spa1,.jum-tatt1,.jum-succ1, .jum-res1 h1, .jum-res1 p{
+.jum-h3 h1,.jum-cus1 h1,.jum-cus1 p, .jum-serv1, .jum-spa1,.jum-tatt1,.jum-succ1, .jum-res1 h1, .jum-res1 p, .jum-tatt2{
 	color:#FFF;
 }
 .jum-cont1{
@@ -367,6 +394,32 @@ footer{
     transition: 1.0s ease-in-out left;
 }
 
+@media (max-width: 992px){
+	.connect{
+		margin: 40px;	
+	}
+	.func-h{
+		margin: 10px;
+		padding: 20px;
+		height: auto;
+	}
+	.func-h:first-child{
+		margin-top: 0;
+	}
+	.rwd-iframe{
+		margin-top: 10px;
+	}
+	.success-row{
+		padding: 0px;
+	}
+	.succ-pic{
+		margin: 10px 0;
+	}
+	.jum-spa2, .jum-beau2, .jum-nail2, .jum-tatt2{
+		padding: 30px 40px;
+	}
+}
+
 @media (max-width: 767px){  /*手機 */
 	.carousel-caption  h1{
   		font-size: 20px;
@@ -398,28 +451,8 @@ footer{
 	.context{
 		margin-top: 0px;
 	}
-}
-@media (max-width: 992px){
-	.connect{
-		margin: 40px;	
-	}
-	.func-h{
-		margin: 10px;
-		padding: 20px;
-		height: auto;
-	}
-	.func-h:first-child{
-		margin-top: 0;
-	}
-	.rwd-iframe{
-		margin-top: 10px;
-	}
-	.success-row{
-		padding: 0px;
-	}
-	.succ-pic{
-		margin: 10px 0;
+	.jum-spa2，.jum-beau2, .jum-nail2, .jum-tatt2{
+		padding: 30px 10px;
 	}
 }
-
 

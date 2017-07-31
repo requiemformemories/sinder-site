@@ -157,11 +157,8 @@ footer{
 	padding-bottom: 200px;	 
 	background-image: url(images/jumbotron-cus1.jpg);
 }
-.jum-h3 h1,.jum-cus1 h1,.jum-cus1 p, .jum-serv1, .jum-spa1,.jum-tatt1,.jum-succ1{
+.jum-h3 h1,.jum-cus1 h1,.jum-cus1 p, .jum-serv1, .jum-spa1,.jum-tatt1,.jum-succ1, .jum-res1 h1, .jum-res1 p{
 	color:#FFF;
-}
-.jum-res1 h1, .jum-res1 p{
-	color: #000;
 }
 .jum-cont1{
 	background-image: url(images/jumbotron-cont1.jpg);
@@ -170,6 +167,8 @@ footer{
 	padding-top: 100px;
 	padding-bottom: 200px;
 	background-image: url(images/jumbotron-res1.jpg);
+	background-size: cover;
+	background-position: right;
 }
 
 .feature-row{
